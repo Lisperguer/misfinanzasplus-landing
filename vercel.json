@@ -1,10 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/pago",
-      "destination": "https://hukgusabulbqtkyljzzq.supabase.co/functions/v1/ingest-manual"
-    }
-  ]
+  "cleanUrls": true
 }
