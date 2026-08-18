@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad · MisFinanzas+</title>
+  <meta name="description" content="Política de privacidad de MisFinanzas+: qué datos recopilamos, cómo los usamos y con quién los compartimos." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #16161f;
+      --border: #262633;
+      --text: #f4f4f7;
+      --text-2: #a7a7b6;
+      --text-3: #6c6c7c;
+      --accent: #8b7cf6;
+      --radius: 16px;
+      --max: 720px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .serif {
+      font-family: Georgia, "Times New Roman", "Iowan Old Style", serif;
+      letter-spacing: -0.01em;
+    }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 64px 24px 96px; }
+    a { color: var(--accent); }
+    h1 { font-size: 34px; margin-bottom: 8px; }
+    h2 { font-size: 20px; margin: 40px 0 12px; color: var(--text); }
+    p, li { color: var(--text-2); font-size: 15px; }
+    p { margin-bottom: 14px; }
+    ul { margin: 0 0 14px 20px; }
+    li { margin-bottom: 6px; }
+    .updated { color: var(--text-3); font-size: 13px; margin-bottom: 40px; }
+    .back { display: inline-block; margin-bottom: 32px; color: var(--text-3); font-size: 14px; }
+    strong { color: var(--text); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&larr; MisFinanzas+</a>
+    <h1 class="serif">Política de Privacidad</h1>
+    <p class="updated">Última actualización: agosto de 2026</p>
+
+    <p>Esta política describe qué información recopila <strong>MisFinanzas+</strong> ("la app", "nosotros"), cómo la usamos y con quién la compartimos. Al usar la app, aceptas las prácticas descritas aquí.</p>
+
+    <h2 class="serif">1. Quiénes somos</h2>
+    <p>MisFinanzas+ es una app desarrollada por Felipe Lisperguer. Para cualquier consulta sobre tus datos, puedes escribir a <a href="mailto:pagos@misfinanzasplus.com">pagos@misfinanzasplus.com</a>.</p>
+
+    <h2 class="serif">2. Qué datos recopilamos</h2>
+    <ul>
+      <li><strong>Datos de cuenta:</strong> correo electrónico y, si inicias sesión con Google o Apple, tu nombre y correo asociados a esa cuenta.</li>
+      <li><strong>Datos financieros que ingresas:</strong> montos, comercios, categorías y fechas de tus movimientos, ya sea agregados manualmente o mediante el Shortcut de iOS.</li>
+      <li><strong>Datos de correos reenviados:</strong> si activas la lectura automática, procesamos el contenido de los correos que tú reenvías desde tu banco (monto, comercio, fecha) para registrar el movimiento automáticamente. No accedemos a tu bandeja de entrada; solo procesamos lo que reenvías activamente.</li>
+      <li><strong>Preferencias:</strong> presupuestos, categorías personalizadas y alias de comercios que configuras.</li>
+      <li><strong>Datos de suscripción:</strong> estado de tu suscripción (a través de RevenueCat) — no almacenamos datos de tu tarjeta, esos los procesa directamente Apple.</li>
+      <li><strong>Notificaciones push:</strong> un identificador de dispositivo para poder enviarte alertas (por ejemplo, cuando se detecta un pago nuevo).</li>
+      <li><strong>Datos del plan Familiar:</strong> si contratas el plan Familiar, el correo electrónico de cada persona que invitas a tu cuenta. Al aceptar tu invitación, esa persona pasa a tener visibilidad sobre la información financiera asociada a la cuenta compartida.</li>
+    </ul>
+
+    <h2 class="serif">3. Base legal del tratamiento</h2>
+    <ul>
+      <li><strong>Ejecución del contrato:</strong> necesitamos tus datos de cuenta, financieros y de suscripción para prestarte el servicio que contrataste (mostrar tus movimientos, presupuestos y análisis).</li>
+      <li><strong>Tu consentimiento:</strong> activar la lectura automática de correos, iniciar sesión con Google, o invitar a alguien al plan Familiar son acciones que tú decides activar explícitamente. Puedes retirar tu consentimiento en cualquier momento desactivando esa función o eliminando tu cuenta.</li>
+    </ul>
+
+    <h2 class="serif">4. Cómo usamos tus datos</h2>
+    <ul>
+      <li>Mostrar tu resumen financiero, presupuestos y análisis de gasto.</li>
+      <li>Detectar y registrar pagos automáticamente a partir de los correos que reenvías.</li>
+      <li>Enviarte notificaciones relevantes sobre tu actividad financiera.</li>
+      <li>Gestionar tu suscripción y período de prueba.</li>
+      <li>Mejorar la app y corregir errores.</li>
+    </ul>
+    <p>No vendemos tus datos ni los usamos con fines publicitarios.</p>
+
+    <h2 class="serif">5. Con quién compartimos datos</h2>
+    <p>Usamos los siguientes proveedores para operar la app, cada uno con acceso limitado a lo que necesita para su función:</p>
+    <ul>
+      <li><strong>Supabase</strong> — base de datos, autenticación y almacenamiento.</li>
+      <li><strong>RevenueCat</strong> — gestión de suscripciones y compras.</li>
+      <li><strong>Apple</strong> — inicio de sesión con Apple, procesamiento de pagos (StoreKit) y notificaciones push.</li>
+      <li><strong>Google</strong> — inicio de sesión con Google, si eliges usarlo.</li>
+      <li><strong>Mailgun</strong> — recepción de los correos que reenvías para la lectura automática de pagos.</li>
+    </ul>
+
+    <h2 class="serif">6. Transferencias internacionales</h2>
+    <p>Tus datos se almacenan en servidores de Supabase ubicados en Estados Unidos, por lo que tu información sale de Chile para ser procesada. Trabajamos únicamente con proveedores que aplican cifrado en tránsito y en reposo, y controles de acceso, para proteger tu información durante este tratamiento.</p>
+
+    <h2 class="serif">7. Seguridad</h2>
+    <p>Toda la comunicación entre la app y nuestros servidores usa cifrado HTTPS/TLS. El acceso a tus datos está restringido por reglas de seguridad a nivel de fila (Row Level Security), de forma que cada usuario solo puede ver su propia información.</p>
+
+    <h2 class="serif">8. Cuánto tiempo conservamos tus datos</h2>
+    <p>Conservamos tus datos mientras tu cuenta esté activa. Si solicitas la eliminación de tu cuenta, eliminamos tus datos personales dentro de un plazo razonable, salvo que debamos conservar cierta información por obligaciones legales, contables o para prevenir fraude.</p>
+
+    <h2 class="serif">9. Tus derechos</h2>
+    <p>Tienes derecho a:</p>
+    <ul>
+      <li><strong>Acceder</strong> a los datos personales que tenemos sobre ti.</li>
+      <li><strong>Rectificar</strong> datos que estén incorrectos o desactualizados.</li>
+      <li><strong>Cancelar</strong> tu cuenta y solicitar la eliminación de los datos asociados.</li>
+      <li><strong>Oponerte</strong> al tratamiento de tus datos para fines específicos, como la lectura automática de correos.</li>
+    </ul>
+    <p>Para ejercer cualquiera de estos derechos, escríbenos a <a href="mailto:pagos@misfinanzasplus.com">pagos@misfinanzasplus.com</a>. Procesaremos tu solicitud dentro de un plazo razonable.</p>
+
+    <h2 class="serif">10. Cambios a esta política</h2>
+    <p>Podemos actualizar esta política ocasionalmente. Si hay cambios importantes, te lo notificaremos dentro de la app.</p>
+
+    <h2 class="serif">11. Contacto</h2>
+    <p>Para cualquier pregunta sobre esta política o tus datos: <a href="mailto:pagos@misfinanzasplus.com">pagos@misfinanzasplus.com</a>.</p>
+  </div>
+</body>
+</html>
